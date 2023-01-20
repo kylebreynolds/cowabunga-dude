@@ -9,9 +9,12 @@
 }
 
 .App-hero {
-  height: 60vmin;
+  height: 75vmin;
 }
 
+.Body {
+  background-color: gray;
+}
 
 
 

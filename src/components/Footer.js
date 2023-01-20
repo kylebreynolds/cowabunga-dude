@@ -14,22 +14,26 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0}} elevation={5}>
-    <BottomNavigation sx={{bgcolor:"black", width: 400 }} value={value} onChange={handleChange}>
+    <Paper sx={{ bgcolor:'green', position: 'fixed', bottom: 0, left: 0, right: 0}} elevation={3}>
+    <BottomNavigation sx={{bgcolor:"black", width: '100%' }} value={value} onChange={handleChange}>
       <BottomNavigationAction
-        style={{color:'blue'}}
+        style={{color:'#4267B2'}}
         value="recents"
-        icon={<FacebookIcon />}
+        icon={<FacebookIcon/>}
+        href='https://www.facebook.com/profile.php?id=100084473899055' 
       />
       <BottomNavigationAction
        style={{color:'#E1306C'}}
         value="favorites"
         icon={<InstagramIcon />}
+        href='https://www.instagram.com/cowabungadudekc/'
       />
       <BottomNavigationAction
+        
         style={{color:'green'}}
         value="nearby"
         icon={<PaidIcon />}
+        href='https://account.venmo.com/u/nolan_smith'
       />
     </BottomNavigation>
     </Paper>

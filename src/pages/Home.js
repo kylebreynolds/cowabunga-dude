@@ -4,7 +4,11 @@ import Hero from '../assets/bandpic.jpg'
 
 function Home() {
     return(
-        <section>
+        <section className='Body'>
+        <img src={Hero} className='App-hero' alt='cowabunga dude live'/>
+        <img src={Hero} className='App-hero' alt='cowabunga dude live'/>
+        <img src={Hero} className='App-hero' alt='cowabunga dude live'/>
+        <img src={Hero} className='App-hero' alt='cowabunga dude live'/>
         <img src={Hero} className='App-hero' alt='cowabunga dude live'/>
         </section>
     )

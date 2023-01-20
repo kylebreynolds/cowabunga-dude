@@ -24,12 +24,14 @@ function App() {
       
       <main>
         <ResponsiveAppBar></ResponsiveAppBar>
+        <div className='container'>
         <Routes>
           <Route path='Home' element={<Home/>} />
           <Route path='About Us' element={<About/>} />
           <Route path='Upcoming Shows' element={<Upcoming/>} />
           <Route path='Contact Us' element={<Contact/>} />
         </Routes>
+        </div>
         <LabelBottomNavigation></LabelBottomNavigation>
       </main>
     </div>
