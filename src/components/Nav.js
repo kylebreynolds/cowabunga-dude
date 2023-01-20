@@ -15,7 +15,7 @@ import {Link} from 'react-router-dom';
 import Logo from '../assets/dudelogo.png'
 
 
-const pages = ['Home', 'About', 'Upcoming', 'Contact'];
+const pages = ['Home', 'About Us', 'Upcoming Shows', 'Contact Us'];
 
 
 const ResponsiveAppBar = () => {
@@ -86,7 +86,7 @@ const ResponsiveAppBar = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   <Typography textAlign="center">
-                    <Link to={`/${page}`}>
+                    <Link style={{textDecoration: 'none', color:'black'}} to={`/${page}`}>
                     {page}
                     </Link>
                   </Typography>
@@ -119,7 +119,7 @@ const ResponsiveAppBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                <Link to={`/${page}`}>
+                <Link style={{textDecoration: 'none', color:'white'}} to={`/${page}`}>
                     {page}
                     </Link>
               </Button>

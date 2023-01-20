@@ -22,10 +22,10 @@ function App() {
       <main>
         <ResponsiveAppBar></ResponsiveAppBar>
         <Routes>
-          <Route path='/Home' element={<Home/>} />
-          <Route path='/About' element={<About/>} />
-          <Route path='/Upcoming' element={<Upcoming/>} />
-          <Route path='/Contact' element={<Contact/>} />
+          <Route path='Home' element={<Home/>} />
+          <Route path='About Us' element={<About/>} />
+          <Route path='Upcoming Shows' element={<Upcoming/>} />
+          <Route path='Contact Us' element={<Contact/>} />
         </Routes>
 
       </main>
