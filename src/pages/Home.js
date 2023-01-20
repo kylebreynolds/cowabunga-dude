@@ -1,9 +1,11 @@
 import React from 'react';
 
+import Hero from '../assets/bandpic.jpg'
+
 function Home() {
     return(
         <section>
-        <h1 id='about'>Home</h1>
+        <img src={Hero} className='App-hero' alt='cowabunga dude live'/>
         </section>
     )
 }

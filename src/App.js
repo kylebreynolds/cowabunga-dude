@@ -12,6 +12,9 @@ import Upcoming from './pages/Upcoming';
 import Contact from './pages/Contact';
 import ResponsiveAppBar from './components/Nav';
 import { Routes, Route } from 'react-router';
+import LabelBottomNavigation from './components/Footer';
+
+
 
 
 
@@ -27,7 +30,7 @@ function App() {
           <Route path='Upcoming Shows' element={<Upcoming/>} />
           <Route path='Contact Us' element={<Contact/>} />
         </Routes>
-
+        <LabelBottomNavigation></LabelBottomNavigation>
       </main>
     </div>
   );
