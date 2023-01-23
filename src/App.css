@@ -9,13 +9,25 @@
 }
 
 .App-hero {
-  height: 75vmin;
+  height: 85vmin;
+  width:100%;
+  padding-top: 50px;
+ 
 }
 
 .Body {
-  background-color: gray;
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
 
+.Container {
+  background-color: black;
+  margin-top: 75px;
+  
+}
 
+.Text {
+  padding: 50px;
+}
 
 

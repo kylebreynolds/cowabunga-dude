@@ -24,7 +24,7 @@ function App() {
       
       <main>
         <ResponsiveAppBar></ResponsiveAppBar>
-        <div className='container'>
+        <div className='Container'>
         <Routes>
           <Route path='Home' element={<Home/>} />
           <Route path='About Us' element={<About/>} />

@@ -6,6 +6,7 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import PaidIcon from '@mui/icons-material/Paid';
 import Paper from '@mui/material/Paper';
 
+
 export default function LabelBottomNavigation() {
   const [value, setValue] = React.useState('recents');
 
@@ -14,8 +15,8 @@ export default function LabelBottomNavigation() {
   };
 
   return (
-    <Paper sx={{ bgcolor:'green', position: 'fixed', bottom: 0, left: 0, right: 0}} elevation={3}>
-    <BottomNavigation sx={{bgcolor:"black", width: '100%' }} value={value} onChange={handleChange}>
+    <Paper sx={{ bgcolor:'black',  position: 'fixed', bottom: 0, left: 0, right: 0}} elevation={3}>
+    <BottomNavigation sx={{bgcolor:"black", width: '100%',}} value={value} onChange={handleChange}>
       <BottomNavigationAction
         style={{color:'#4267B2'}}
         value="recents"

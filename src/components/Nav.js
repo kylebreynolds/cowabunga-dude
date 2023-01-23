@@ -10,6 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 
+
 import {Link} from 'react-router-dom';
 
 import Logo from '../assets/dudelogo.png'
@@ -52,9 +53,11 @@ const ResponsiveAppBar = () => {
             }}
           >
           <img src={Logo} className='App-logo' alt='cowabunga dude logo'/>
+          
           </Typography>
-
+          
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -94,6 +97,7 @@ const ResponsiveAppBar = () => {
               ))}
             </Menu>
           </Box>
+          
           <Typography
             variant="h5"
             noWrap
@@ -124,6 +128,7 @@ const ResponsiveAppBar = () => {
                     </Link>
               </Button>
             ))}
+            
           </Box>
 
         </Toolbar>
